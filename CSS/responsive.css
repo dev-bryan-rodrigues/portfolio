@@ -1,0 +1,30 @@
+@media(max-width: 1200px){
+
+}
+
+@media(max-width: 991px){
+    header .container nav{
+        display: none;
+    }
+    header .container .menu-mobile{
+        display: block;
+    }
+    
+}
+
+@media(max-width: 780px){
+    
+}
+
+@media(max-width: 600px){
+    
+}
+
+@media(max-width: 480px){
+    header .container .menu-mobile {
+        padding: 1.2rem .8rem;   
+    }    
+    header .container .logo img{
+        max-width: 80%;
+    }
+}
