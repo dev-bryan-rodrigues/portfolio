@@ -1,0 +1,41 @@
+/* Footer Style */
+
+header{
+    background-color: var(--gray-colors-800);   
+    height: 8.8rem;
+    padding: 2.4rem 0px;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+header .container nav{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 81.6rem;
+    justify-content: space-between;
+}
+
+header .container nav ul{
+    display: flex;
+}
+
+header .container nav ul li{
+    margin-right: 3.2rem;
+}
+
+header .container nav ul li:last-child{
+    margin-right: 0px;
+}
+
+header .container nav .btn-primary{
+    margin-left: 3.8rem;
+    padding: 0.9rem 3.4rem;
+}
+
+header .container .menu-mobile{
+    display: none;
+}
