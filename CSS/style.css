@@ -39,3 +39,45 @@ header .container nav .btn-primary{
 header .container .menu-mobile{
     display: none;
 }
+
+/* Section Hero Style */
+
+.s-hero {
+    padding: 7.2rem 0 7.2rem 0;
+}
+
+.s-hero .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.s-hero .container .text{
+    max-width: 64rem;
+}
+
+.s-hero .container .text p{
+    max-width: 48.8rem;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 150%;
+    color: var(--gray-colors-300);
+    margin-top: 2rem;
+    margin-bottom: 5.6rem;
+}
+
+.s-hero .container .text .btn-primary{
+    padding: 1.8rem 3.7rem;
+}
+
+.s-hero .container .hero-image{
+    background-color: var(--gray-colors-800);
+    height: 49.6rem;
+    width: 100%;
+    max-width: 48.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
