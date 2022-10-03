@@ -79,5 +79,97 @@ header .container .menu-mobile{
     display: flex;
     align-items: center;
     justify-content: center;
+}
 
+.s-features {
+    background-color: var(--gray-colors-100);
+    padding: 10.4rem 0px 12rem 0px;
+}
+
+.s-features .container .main-area{
+    padding-bottom: 12.2rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.24);
+}
+
+.s-features .container .title.center h3{
+    font-family: 'Sora', sans-serif;
+    font-weight: 600;
+    font-size: 3.2rem;
+    line-height: 125%;
+    text-align: center;
+    letter-spacing: -1px;
+    color: var(--white);
+}
+
+.s-features .container .title.center p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    line-height: 150%;
+    text-align: center;
+    color: var(--white-colors-text);
+    margin-top: 0.8rem;
+}
+
+.s-features .container .all-cards{
+    display: flex;
+    justify-content: space-between ;
+    margin-top: 4.5rem;
+}
+
+.s-features .container .all-cards .card{
+    background-color: var(--gray-colors-200);
+    padding: 7.2rem 0px 8rem 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-right: 3.2rem;
+}
+
+
+.s-features .container .all-cards .card:last-child{
+    margin-right: 0px;
+}
+
+.s-features .container .all-cards .card .icon img{
+    width: 100%;
+    max-width: 4.8rem;
+}
+
+.s-features .container .all-cards .card .text{
+    text-align: center;
+    margin-top: 4.8rem;
+}
+
+.s-features .container .all-cards .card .text h3{
+    font-family: 'Sora';
+    font-weight: 600;
+    font-size: 2.4rem;
+    line-height: 125%;
+    text-align: center;
+    letter-spacing: -1px;     
+    color: var(--white);
+    margin-bottom: 0.8rem;
+}
+
+.s-features .container .all-cards .card .text p{
+    font-family: 'Inter';
+    font-weight: 400;
+    line-height: 150%;
+    text-align: center;
+    color: var(--white-colors-text);
+    width: 100%;    
+    max-width: 28.8rem;
+}
+
+.s-features .container .all-cards .card.white{
+    background-color: var(--white);
+}
+
+.s-features .container .all-cards .card.white h3{
+    color: var(--gray-colors-100);    
+}
+
+.s-features .container .all-cards .card.white p{
+    color: var(--gray-colors-300);
 }
