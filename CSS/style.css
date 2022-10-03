@@ -240,3 +240,71 @@ header .container .menu-mobile{
 .s-newsletter .container .btn-primary{
     padding: 1.7rem 4.1rem;
 }
+
+footer{
+    background-color: var(--gray-colors-100);
+    padding: 8.8rem 0rem 3.9rem 0rem;
+}
+
+footer .container main{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 7.2rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.205);
+}
+
+footer .container main .area-left{
+    width: 100%;
+    max-width: 28.1rem;
+}
+
+footer .container main .area-left p{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 150%;     
+    color: var(--white-colors-text);    
+    margin-top: 3.5rem;
+}
+
+footer .container main nav{
+    display: flex;
+    width: 100%;
+    max-width: 77.7rem;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+footer .container main nav .item h6{
+    font-family: 'Sora';
+    font-weight: 600;
+    line-height: 125%;
+    letter-spacing: -1px; 
+    color: var(--white);
+    margin-bottom: 2.4rem;
+}
+
+footer .container main nav .item ul li a{
+    font-family: 'Sora';
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 105%;   
+    color: var(--white-colors-text);
+}
+
+footer .container main nav .item ul li{
+    margin-bottom: 3.2rem;
+}
+
+footer .container main nav .item ul li:last-child{
+    margin-bottom: 0rem;
+}
+
+footer .container main nav .item:last-child ul li a{
+    display: flex;
+    align-items: center;
+}
+
+footer .container main nav .item:last-child ul li a img{
+    margin-right: 1rem;
+}
