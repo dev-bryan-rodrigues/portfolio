@@ -8,6 +8,9 @@
         max-width: 23.5%;
 
     }
+    footer .container main nav{
+        margin-left: 5rem;
+    }
 }
 
 @media(max-width: 991px){
@@ -54,6 +57,17 @@
         width: 100%;
         max-width: 33%;
     } 
+    footer main{
+        flex-direction: column;
+        align-items: center;
+    }
+    footer main .area-left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+         text-align: center;
+         margin-bottom: 4rem;
+    }
 }
 
 @media(max-width: 600px){
@@ -77,6 +91,27 @@
     .s-newsletter{
         padding: 4rem 0px 4rem 0px;
     }
+    footer {
+        padding-top: 4rem;
+    }
+    footer .container main{
+        padding-bottom: 4rem;
+    }
+    footer .container main nav{
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0rem;
+    }
+    footer main nav .item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 4rem;
+    }
+    footer main nav .item:last-child{
+        margin-bottom: 0rem;
+    }
+
 }
 
 
