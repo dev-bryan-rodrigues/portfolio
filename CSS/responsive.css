@@ -74,6 +74,9 @@
     .s-features .container .second-area .all-imgs{
         margin-top: 4rem;
     }
+    .s-newsletter{
+        padding: 4rem 0px 4rem 0px;
+    }
 }
 
 
@@ -93,5 +96,8 @@
 
     .s-hero .container .text p{
         margin-bottom: 4rem;
+    }
+    .s-newsletter .text h2{
+        font-size: 2.7rem;
     }
 }
