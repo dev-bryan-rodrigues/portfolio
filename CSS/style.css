@@ -173,3 +173,40 @@ header .container .menu-mobile{
 .s-features .container .all-cards .card.white p{
     color: var(--gray-colors-300);
 }
+
+.s-features .container .second-area{
+    padding-top: 12.2rem;
+}
+
+.s-features .container .second-area .top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.s-features .container .second-area .top .text p{
+    font-weight: 400;
+    line-height: 150%;         
+    color: var(--white-colors-text);
+    margin-top: 0.8rem;
+}
+.s-features .container .second-area .top .btn-primary{  
+    padding: 1.7rem 5.1rem;
+}
+
+.s-features .container .second-area .all-imgs{
+    margin-top: 6.4rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3.2rem;
+}
+
+.s-features .container .second-area .all-imgs .image{
+    background-color: var(--gray-colors-200); 
+    width: 100%;
+    max-width: 17.6rem;
+    height: 11.2rem;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
