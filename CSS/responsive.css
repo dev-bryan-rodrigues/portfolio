@@ -19,7 +19,22 @@
         text-align: center;
         margin-bottom: 4rem;
     }
-    
+    .s-features {
+        padding: 4rem 0rem 4rem 0rem;
+    }
+    .s-features .container .main-area{
+        padding-bottom: .4rem;
+    }
+    .s-features .container .main-area .all-cards{
+        flex-direction: column;
+    }
+    .s-features .container .main-area .all-cards .card{
+        padding: 4rem 0rem 4rem 0rem;
+        margin-bottom: 0.8rem;
+    }
+    .s-features .container .main-area .all-cards .card .text p{
+        max-width: 100%;
+    }
 }
 
 @media(max-width: 780px){
