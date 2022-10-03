@@ -7,6 +7,11 @@
     color: #050110;
     border: none;
     padding: 1.2rem 3.4rem;
+    transition: 0.2s;
+}
+
+.btn-primary:hover{
+    transform: scale(1.05);
 }
 
 .menu-item{
@@ -19,6 +24,12 @@
     color: var(--gray-colors-400);
     padding: 1.2rem 2.4rem;
     display: inline-block;
+    transition: all 0.2s;
+}
+
+.menu-item:hover{
+    background-color: #acb4bf73;
+    color: white;
 }
 
 .menu-mobile{
