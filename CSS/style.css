@@ -308,3 +308,29 @@ footer .container main nav .item:last-child ul li a{
 footer .container main nav .item:last-child ul li a img{
     margin-right: 1rem;
 }
+
+footer .copy{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 4rem;
+}
+
+footer .copy p{
+    color: var(--white-colors-text);
+}
+
+footer .copy .group{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .copy .group p{
+    font-family: 'Sora';
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 150%;  
+    color: var(--white-colors-text);
+    margin-right: 0.8rem;
+}
