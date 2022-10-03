@@ -211,6 +211,8 @@ header .container .menu-mobile{
     justify-content: center;
 }
 
+/* S-newsletter Style */
+
 .s-newsletter {
     background-color: var(--gray-colors-200);
     padding: 15.2rem 0px 15.2rem 0px;
@@ -240,6 +242,8 @@ header .container .menu-mobile{
 .s-newsletter .container .btn-primary{
     padding: 1.7rem 4.1rem;
 }
+
+/* Footer Style */
 
 footer{
     background-color: var(--gray-colors-100);
@@ -290,6 +294,11 @@ footer .container main nav .item ul li a{
     font-size: 1.4rem;
     line-height: 105%;   
     color: var(--white-colors-text);
+    transition: .2s;
+}
+
+footer .container main nav .item ul li a:hover{
+    color: white;
 }
 
 footer .container main nav .item ul li{
