@@ -4,7 +4,6 @@ header {
   background-color: var(--gray-colors-800);
   height: 8.8rem;
   padding: 2.4rem 0px;
-  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
