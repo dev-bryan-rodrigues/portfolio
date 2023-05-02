@@ -1,228 +1,253 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Sora:wght@400;600&display=swap" rel="stylesheet">
-    <title>Wireframe Project</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./CSS/variables.css">
-    <link rel="stylesheet" href="./CSS/pattern.css">
-    <link rel="stylesheet" href="./CSS/grid.css">
-    <link rel="stylesheet" href="./CSS/reset.css">
-    <link rel="stylesheet" href="./CSS/style.css">
-    <link rel="stylesheet" href="./CSS/responsive.css">
-</head>
-<body>
- 
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Sora:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <title>troquei</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./CSS/variables.css" />
+    <link rel="stylesheet" href="./CSS/pattern.css" />
+    <link rel="stylesheet" href="./CSS/grid.css" />
+    <link rel="stylesheet" href="./CSS/reset.css" />
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <link rel="stylesheet" href="./CSS/responsive.css" />
+  </head>
+  <body>
     <header>
-        <div class="container">
-            <div class="logo">
-                <img src="./img/logo.svg" alt="wireframe logo">    
-            </div>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="" class="menu-item">Menu item</a>
-                    </li>
-                    <li>
-                        <a href="" class="menu-item">Menu item</a>
-                    </li>
-                    <li>
-                        <a href="" class="menu-item">Menu item</a>
-                    </li>
-                    <li>
-                        <a href="" class="menu-item">Menu item</a>
-                    </li>
-                </ul>
-                <button class="btn-primary">Call to action</button>
-            </nav>
-            <a href="" class="menu-mobile">Menu mobile</a>
+      <div class="container">
+        <div class="logo">
+          <img src="./img/logo.svg" alt="wireframe logo" />
         </div>
+        <nav>
+          <ul>
+            <li>
+              <a href="#hero" class="menu-item">Hero</a>
+            </li>
+            <li>
+              <a href="#features" class="menu-item">Habilidades</a>
+            </li>
+            <li>
+              <a href="#features2" class="menu-item">Projetos</a>
+            </li>
+            <li>
+              <a href="#newsletter" class="menu-item">Contatos</a>
+            </li>
+          </ul>
+          <button class="btn-primary">Call to action</button>
+        </nav>
+        <a href="" class="menu-mobile">Menu mobile</a>
+      </div>
     </header>
 
-    <section class="s-hero">
-        <div class="container">
-            <div class="text">
-                <h1>Front-end descomplicado e direto ao ponto!</h1>
-                <p>Aprenda a desenvolver interfaces modernas e de alta qualidade com quem está na área atuando com projetos altamente renomados.</p>
-                <button class="btn-primary">Fazer parte da lista de espera</button>
-            </div>
-            <div class="hero-image">
-                <img src="./img/img-hero.svg" alt="">
-            </div>
+    <section class="s-hero js-scroll" id="hero">
+      <div class="container">
+        <div class="text">
+          <h1>Olá, eu sou o Bryan!</h1>
+          <p>
+            Desenvolvedor Front-End há 1 ano, caminhando rumo ao Full-Stack!
+          </p>
+          <a class="btn-primary" href="#features">Conheça minhas habilidades</a>
         </div>
+        <div class="hero-image">
+          <img src="./img/img-hero.svg" alt="" />
+        </div>
+      </div>
     </section>
 
-    <div class="s-features">
-        <div class="container">
-            <div class="main-area">
-                <div class="title center">
-                    <h3>Titulo</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-                </div>
-                <div class="all-cards">
-                    <div class="card">
-                        <div class="icon">
-                           <img src="./img/icon-circle.svg" alt="">
-                        </div>
-                        <div class="text">
-                            <h3>Título</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nunc orci, eleifend eu porta eu, viverra non metus. </p>
-                        </div>
-                    </div>
-                    <div class="card white">
-                        <div class="icon">
-                           <img src="./img/icon-circle.svg" alt="">
-                        </div>
-                        <div class="text">
-                            <h3>Título</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nunc orci, eleifend eu porta eu, viverra non metus. </p>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="icon">
-                           <img src="./img/icon-circle.svg" alt="">
-                        </div>
-                        <div class="text">
-                            <h3>Título</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nunc orci, eleifend eu porta eu, viverra non metus. </p>
-                        </div>
-                    </div>
-                </div>
+    <div class="s-features" id="features">
+      <div class="container">
+        <div class="main-area js-scroll">
+          <div class="title center">
+            <h3>Habilidades</h3>
+            <p>Saiba um pouco mais sbre minha experiência técnica.</p>
+          </div>
+          <div class="all-cards">
+            <div class="card">
+              <div class="icon">
+                <img src="./img/html5.png" alt="" />
+                <img src="./img/css-3.png" alt="" />
+                <img src="./img/js.png" alt="" />
+              </div>
+              <div class="text">
+                <h3>Html, Css e JavaScript</h3>
+                <p>
+                  São as principais linguagens de programação utilizadas na
+                  criação de páginas web.
+                </p>
+              </div>
             </div>
-            <div class="second-area">
-                <div class="top">
-                    <div class="text">
-                        <h2>Título</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-                    </div>
-                    <button class="btn-primary">Call to action</button>
-                </div>
-                <div class="all-imgs">
-                    <div class="image">
-                        <img src="./img/thumb.svg" alt="">
-                    </div>
-                    <div class="image">
-                        <img src="./img/thumb.svg" alt="">
-                    </div>
-                    <div class="image">
-                        <img src="./img/thumb.svg" alt="">
-                    </div>
-                    <div class="image">
-                        <img src="./img/thumb.svg" alt="">
-                    </div>
-                    <div class="image">
-                        <img src="./img/thumb.svg" alt="">
-                    </div>
-                    <div class="image">
-                        <img src="./img/thumb.svg" alt="">
-                    </div>
-                    <div class="image">
-                        <img src="./img/thumb.svg" alt="">
-                    </div>
-                    <div class="image">
-                        <img src="./img/thumb.svg" alt="">
-                    </div>
-                    <div class="image">
-                        <img src="./img/thumb.svg" alt="">
-                    </div>
-                    <div class="image">
-                        <img src="./img/thumb.svg" alt="">
-                    </div>
-                    <div class="image">
-                        <img src="./img/thumb.svg" alt="">
-                    </div>
-                    <div class="image">
-                        <img src="./img/thumb.svg" alt="">
-                    </div>
-                </div>
+            <div class="card white">
+              <div class="icon">
+                <img src="./img/vue-js-512.png" alt="" />
+                <img src="./img/nuxt-square.svg" alt="" />
+              </div>
+
+              <div class="text">
+                <h3>Nuxt.js e Vue.js</h3>
+                <p>
+                  Vue.js e Nuxt.js são estruturas JavaScript utilizadas para
+                  construir interfaces de usuário interativas e reativas em
+                  aplicativos web.
+                </p>
+              </div>
             </div>
+            <div class="card">
+              <div class="icon">
+                <img src="./img/nestjs-seeklogo.com.svg" alt="" />
+              </div>
+              <div class="text">
+                <h3>Nest.js</h3>
+                <p>
+                  NestJS é um framework em JavaScript/TypeScript para
+                  desenvolvimento de aplicativos server-side.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
+        <div class="second-area js-scroll" id="features2">
+          <div class="top">
+            <div class="text">
+              <h2>Features 2</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <button class="btn-primary">Call to action</button>
+          </div>
+          <div class="all-imgs">
+            <div class="image">
+              <img src="./img/thumb.svg" alt="" />
+            </div>
+            <div class="image">
+              <img src="./img/thumb.svg" alt="" />
+            </div>
+            <div class="image">
+              <img src="./img/thumb.svg" alt="" />
+            </div>
+            <div class="image">
+              <img src="./img/thumb.svg" alt="" />
+            </div>
+            <div class="image">
+              <img src="./img/thumb.svg" alt="" />
+            </div>
+            <div class="image">
+              <img src="./img/thumb.svg" alt="" />
+            </div>
+            <div class="image">
+              <img src="./img/thumb.svg" alt="" />
+            </div>
+            <div class="image">
+              <img src="./img/thumb.svg" alt="" />
+            </div>
+            <div class="image">
+              <img src="./img/thumb.svg" alt="" />
+            </div>
+            <div class="image">
+              <img src="./img/thumb.svg" alt="" />
+            </div>
+            <div class="image">
+              <img src="./img/thumb.svg" alt="" />
+            </div>
+            <div class="image">
+              <img src="./img/thumb.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
-    <section class="s-newsletter">
-        <div class="container">
-            <div class="text">
-                <h2>Front-end descomplicado e direto ao ponto!</h2>
-                <p>Aprenda a desenvolver interfaces modernas e de alta qualidade com quem está na área atuando com projetos altamente renomados.</p>
-            </div>
-            <button class="btn-primary">Fazer parte da lista de espera</button>
+    <section class="s-newsletter" id="newsletter">
+      <div class="container js-scroll">
+        <div class="text">
+          <h2>Newsletter</h2>
+          <p>
+            Aprenda a desenvolver interfaces modernas e de alta qualidade com
+            quem está na área atuando com projetos altamente renomados.
+          </p>
         </div>
+        <button class="btn-primary">Fazer parte da lista de espera</button>
+      </div>
     </section>
 
     <footer>
-        <div class="container">
-            <main>
-                <div class="area-left">
-                    <img src="./img/logo-footer.svg" alt="">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nunc orci, eleifend eu porta eu, viverra.</p>
-                </div>
-                <nav>
-                    <div class="item">
-                        <h6>Lsita de páginas</h6>
-                        <ul>
-                            <li>
-                                <a href="">Text link 01</a>
-                            </li>
-                            <li>
-                                <a href="">Text link 02</a>
-                            </li>
-                            <li>
-                                <a href="">Text link 03</a>
-                            </li>
-                            <li>
-                                <a href="">Text link 04</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="item">
-                        <h6>Soluções</h6>
-                        <ul>
-                            <li>
-                                <a href="">Text link 01</a>
-                            </li>
-                            <li>
-                                <a href="">Text link 02</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="item">
-                        <h6>Nossas redes sociais</h6>
-                        <ul>
-                            <li>
-                                <a href="">
-                                    <img src="./img/instagram.svg" alt="">
-                                    <span>instagram</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <img src="./img/linkedin.svg" alt="">
-                                    <span>Linkedin</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <img src="./img/youtube.svg" alt="">
-                                    <span>Youtube</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-            </main>
-            <div class="copy">
-                <p>2021 © Todos os direitos reservados. <strong>Codeboost</strong></p>
-                <div class="group">
-                    <p>Grupo</p>
-                    <img src="./img/boost.svg" alt="">
-                </div>
+      <div class="container">
+        <main>
+          <div class="area-left">
+            <img src="./img/logo-footer.svg" alt="" />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+              nunc orci, eleifend eu porta eu, viverra.
+            </p>
+          </div>
+          <nav>
+            <div class="item">
+              <h6>Lsita de páginas</h6>
+              <ul>
+                <li>
+                  <a href="">Text link 01</a>
+                </li>
+                <li>
+                  <a href="">Text link 02</a>
+                </li>
+                <li>
+                  <a href="">Text link 03</a>
+                </li>
+                <li>
+                  <a href="">Text link 04</a>
+                </li>
+              </ul>
             </div>
+            <div class="item">
+              <h6>Soluções</h6>
+              <ul>
+                <li>
+                  <a href="">Text link 01</a>
+                </li>
+                <li>
+                  <a href="">Text link 02</a>
+                </li>
+              </ul>
+            </div>
+            <div class="item">
+              <h6>Nossas redes sociais</h6>
+              <ul>
+                <li>
+                  <a href="">
+                    <img src="./img/instagram.svg" alt="" />
+                    <span>instagram</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="./img/linkedin.svg" alt="" />
+                    <span>Linkedin</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="./img/youtube.svg" alt="" />
+                    <span>Youtube</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </main>
+        <div class="copy">
+          <p>2021 © Todos os direitos reservados. <strong>Codeboost</strong></p>
+          <div class="group">
+            <p>Grupo</p>
+            <img src="./img/boost.svg" alt="" />
+          </div>
         </div>
+      </div>
     </footer>
 
-</body>
+    <script src="./script.js"></script>
+  </body>
 </html>
