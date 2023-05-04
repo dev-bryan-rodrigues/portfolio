@@ -12,6 +12,10 @@
     <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
     <title>Portifólio - Bryan Rodrigues</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="./CSS/variables.css" />
     <link rel="stylesheet" href="./CSS/pattern.css" />
     <link rel="stylesheet" href="./CSS/grid.css" />
@@ -40,7 +44,6 @@
               <a href="#newsletter" class="menu-item">Contatos</a>
             </li>
           </ul>
-          <button class="btn-primary">Call to action</button>
         </nav>
         <a href="" class="menu-mobile">Menu mobile</a>
       </div>
@@ -84,7 +87,7 @@
               </div>
             </div>
             <div class="card white">
-              <div class="icon">
+              <div class="icon second">
                 <img src="./img/vue-js-512.png" alt="" />
                 <img src="./img/nuxt-square.svg" alt="" />
               </div>
@@ -115,48 +118,33 @@
         <div class="second-area js-scroll" id="features2">
           <div class="top">
             <div class="text">
-              <h2>Features 2</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <h2>Projetos</h2>
+              <p>Estes são alguns projetos que desenvolvi</p>
             </div>
-            <button class="btn-primary">Call to action</button>
           </div>
-          <div class="all-imgs">
-            <div class="image">
-              <img src="./img/thumb.svg" alt="" />
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="slide-wrapper">
+                  <h2>Projeto 1</h2>
+                  <p>Descrição do projeto</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="slide-wrapper">
+                  <h2>Projeto 2</h2>
+                  <p>Descrição do projeto</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="slide-wrapper">
+                  <h2>Projeto 3</h2>
+                  <p>Descrição do projeto</p>
+                </div>
+              </div>
             </div>
-            <div class="image">
-              <img src="./img/thumb.svg" alt="" />
-            </div>
-            <div class="image">
-              <img src="./img/thumb.svg" alt="" />
-            </div>
-            <div class="image">
-              <img src="./img/thumb.svg" alt="" />
-            </div>
-            <div class="image">
-              <img src="./img/thumb.svg" alt="" />
-            </div>
-            <div class="image">
-              <img src="./img/thumb.svg" alt="" />
-            </div>
-            <div class="image">
-              <img src="./img/thumb.svg" alt="" />
-            </div>
-            <div class="image">
-              <img src="./img/thumb.svg" alt="" />
-            </div>
-            <div class="image">
-              <img src="./img/thumb.svg" alt="" />
-            </div>
-            <div class="image">
-              <img src="./img/thumb.svg" alt="" />
-            </div>
-            <div class="image">
-              <img src="./img/thumb.svg" alt="" />
-            </div>
-            <div class="image">
-              <img src="./img/thumb.svg" alt="" />
-            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
           </div>
         </div>
       </div>
@@ -165,13 +153,15 @@
     <section class="s-newsletter" id="newsletter">
       <div class="container js-scroll">
         <div class="text">
-          <h2>Newsletter</h2>
+          <h2>Contato</h2>
           <p>
-            Aprenda a desenvolver interfaces modernas e de alta qualidade com
-            quem está na área atuando com projetos altamente renomados.
+            Para entrar em contato envie-me um email. Basta clicar no botão para
+            copiar o endereço.
           </p>
         </div>
-        <button class="btn-primary">Fazer parte da lista de espera</button>
+        <button id="copyEmailButton" class="btn-primary">
+          bryanrodrigues.contato@gmail.com
+        </button>
       </div>
     </section>
 
@@ -248,7 +238,16 @@
         </div>
       </div>
     </footer>
-
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        speed: 1000,
+      });
+    </script>
     <script src="./script.js"></script>
   </body>
 </html>

@@ -37,12 +37,30 @@ function initScrollNav() {
 }
 initScrollNav();
 
-// Cor do Header
+// Botão clicar e copiar
 
-function activeTransparencyOnHeader() {
-  //   const header = document.getElementsByTagName("header");
-  const windowScroll = 0;
-  window.addEventListener("scroll", () => (windowScroll = window.scrollX));
-  console.log(windowScroll);
+function initCopyEmail() {
+  const btnCopy = document.getElementById("copyEmailButton");
+  const textoCopiado = document.querySelector("#copyEmailButton");
+
+  btnCopy.addEventListener("click", () => {
+    // Seleciona o conteúdo do elemento a ser copiado
+    const selecionado = document.createRange();
+    selecionado.selectNode(textoCopiado);
+
+    // Adiciona o conteúdo selecionado à área de transferência
+    const areaDeTransferencia = window.getSelection();
+    areaDeTransferencia.removeAllRanges();
+    areaDeTransferencia.addRange(selecionado);
+
+    // Copia o conteúdo selecionado para a área de transferência
+    document.execCommand("copy");
+
+    // Deseleciona o conteúdo
+    areaDeTransferencia.removeAllRanges();
+
+    // Altera o texto do botão para indicar que o conteúdo foi copiado
+    btnCopy.textContent = "Email copiado!";
+  });
 }
-activeTransparencyOnHeader();
+initCopyEmail();
