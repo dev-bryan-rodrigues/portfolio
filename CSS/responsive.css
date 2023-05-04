@@ -144,4 +144,18 @@
     text-align: center;
     margin-bottom: 0.8rem;
   }
+  #copyEmailButton {
+    padding: 1.7rem 2rem;
+  }
+  .s-features
+    .second-area
+    .swiper
+    .swiper-wrapper
+    .swiper-slide
+    .slide-wrapper {
+    width: 35rem;
+  }
+  .s-features .second-area .swiper {
+    margin-top: 4rem;
+  }
 }
