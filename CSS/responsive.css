@@ -114,6 +114,14 @@
   footer main nav .item:last-child {
     margin-bottom: 0rem;
   }
+  .s-features
+    .second-area
+    .swiper
+    .swiper-wrapper
+    .swiper-slide
+    .slide-wrapper {
+    width: 50rem;
+  }
 }
 
 @media (max-width: 480px) {
