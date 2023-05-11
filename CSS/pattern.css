@@ -12,8 +12,24 @@
   border-radius: 0.4rem;
 }
 
-.btn-primary:hover {
+.btn-primary:hover,
+.btn-secondary:hover {
   transform: scale(1.05);
+}
+
+.btn-secondary {
+  background-color: var(--gray-colors-800);
+  display: block;
+  font-family: "Sora", sans-serif;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  color: var(--gray-colors-200);
+  border: none;
+  padding: 1.2rem 3.4rem;
+  transition: 0.2s;
+  cursor: pointer;
+  border-radius: 0.4rem;
+  text-align: center;
 }
 
 .menu-item {
