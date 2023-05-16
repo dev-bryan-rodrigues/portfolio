@@ -217,4 +217,7 @@
   .s-features .second-area .swiper {
     margin-top: 4rem;
   }
+  footer .copy {
+    padding-top: 0;
+  }
 }
