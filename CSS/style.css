@@ -373,17 +373,38 @@ header .container .menu-mobile {
 
 .s-newsletter {
   background-color: var(--gray-colors-200);
-  padding: 15.2rem 0px 15.2rem 0px;
+  padding: 8rem 0px 8rem 0px;
 }
 
 .s-newsletter .container {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 15rem;
+}
+.s-newsletter .container .line {
+  width: 1px;
+  height: 30rem;
+  background: rgba(255, 255, 255, 0.3);
 }
 .s-newsletter .container .text {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 40rem;
+}
+.s-newsletter .container .text img {
+  width: 5rem;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.s-newsletter .container .text img:hover {
+  transform: scale(1.2);
+}
+.s-newsletter .container .text .imgs {
+  display: flex;
+  gap: 3rem;
 }
 .s-newsletter .container .text p {
   font-family: "Inter";
@@ -490,7 +511,6 @@ footer .copy p {
 
 footer .copy img {
   max-width: 9rem;
-  margin-bottom: 2rem;
 }
 footer .copy p {
   font-family: "Sora";
