@@ -71,7 +71,13 @@
     width: 80%;
     margin-left: 0;
   }
-  .swiper-slide {
+  .s-features
+    .second-area
+    .swiper
+    .swiper-wrapper
+    .swiper-slide
+    .slide-wrapper
+    .project-wrapper {
     max-height: 46.9rem;
   }
   .swiper-slide img {
