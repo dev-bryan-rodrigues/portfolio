@@ -73,6 +73,7 @@
   }
   .swiper-slide img {
     height: auto;
+    max-height: 22rem;
   }
 }
 
