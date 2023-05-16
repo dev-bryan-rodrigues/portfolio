@@ -71,6 +71,9 @@
     width: 80%;
     margin-left: 0;
   }
+  .swiper-slide {
+    max-height: 46.9rem;
+  }
   .swiper-slide img {
     height: auto;
     max-height: 22rem;
