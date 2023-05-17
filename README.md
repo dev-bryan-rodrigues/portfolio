@@ -1,1 +1,1 @@
-# [Protifólio](https://dev-bryan-rodrigues.github.io/portifolio/) ↗️
+# [Protifólio](https://dev-bryan-rodrigues.github.io/portfolio/) ↗️
