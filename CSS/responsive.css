@@ -214,6 +214,17 @@
     .slide-wrapper {
     width: 35rem;
   }
+  .s-features
+    .second-area
+    .swiper
+    .swiper-wrapper
+    .swiper-slide
+    .slide-wrapper
+    .project-wrapper
+    .text
+    h2 {
+    font-size: 2.3rem;
+  }
   .s-features .second-area .swiper {
     margin-top: 4rem;
   }
