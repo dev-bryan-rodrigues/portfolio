@@ -531,12 +531,3 @@ footer .copy p {
   color: var(--white-colors-text);
   margin-right: 0.8rem;
 }
-/* Scroll Animate */
-
-.js-scroll {
-  opacity: 0;
-}
-
-.js-scroll.ativo {
-  opacity: 1;
-}
