@@ -114,19 +114,6 @@ header .container .menu-mobile {
 .s-hero .container .hero-image img {
   border-radius: 50%;
   box-shadow: 0px 12px 16px rgba(0, 0, 0, 0.2);
-
-  animation: swing 2s infinite ease-in-out;
-}
-@keyframes swing {
-  0% {
-    transform: rotate(5deg);
-  }
-  50% {
-    transform: rotate(-5deg);
-  }
-  100% {
-    transform: rotate(5deg);
-  }
 }
 .s-features {
   background-color: var(--gray-colors-100);
